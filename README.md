@@ -24,7 +24,7 @@ class Solution:
 class Solution:
     def hasPath(self, maze: List[List[int]], start: List[int], destination: List[int]) -> bool:
         row=deque()
-        col=deque()
+        col=deque() 
         maze[start[0]][start[1]]=2
         row.append(start[0])
         col.append(start[1])
